@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'live_iY0Yt9hDjXmxbWA5Wt60sUl2X60xECNo4bGVCN82MGzXtDVrQqXKbaoVAEX9IG9G';
+const API_KEY = 'live_H84h4Ja7AwmaNFDZaXCvccmf3LWYoI3yuUijayzlno00Axm2D1BUaGKrZn65YDlC';
 const ENDPOINT = 'https://api.thecatapi.com/v1';
 
 axios.defaults.headers.common['x-api-key'] = API_KEY;
@@ -18,7 +18,6 @@ export default class CatList {
   show(){
     this.element.classList.remove('hidden')
   }
-
   async getCats() {
     try {
       const { data } = await axios.get(`${ENDPOINT}/breeds`);

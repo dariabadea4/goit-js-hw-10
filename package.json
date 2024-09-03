@@ -2,7 +2,7 @@
   "name": "goit-js-hw-10",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/BiancaLZC/goit-js-hw-10",
+  "homepage": "https://github.com/dariabadea4/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
@@ -12,13 +12,13 @@
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Bianca Vadanuta <vadanuta.bianca@yahoo.com>",
+  "author": "Daria Badea <dariabadea04@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "axios": "^1.7.5",
+    "axios": "^1.7.7",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.7"
   },
